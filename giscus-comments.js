@@ -201,7 +201,7 @@
 
   // Create placeholder for lazy loading
   function createGiscusPlaceholder() {
-    const isChinesePage = window.location.pathname.includes('/zh-CN/') || window.location.pathname.includes('/cn/');
+    const isChinesePage = window.location.pathname.includes('/zh/') || window.location.pathname.includes('/cn/');
     const placeholderText = isChinesePage 
       ? '💬 点击或滚动到此处加载评论'
       : '💬 Click or scroll here to load comments';
@@ -405,7 +405,7 @@
     
     if (pathSegments.length > 0) {
       // Use the complete path as search term, keeping language prefixes
-      // Example: /zh-CN/development/core-concepts/workflow -> "zh-CN development core concepts workflow"
+      // Example: /zh/development/core-concepts/workflow -> "zh development core concepts workflow"
       searchQuery = pathSegments
         .join(' ')
         .replace(/[-_]/g, ' ') // Replace dashes/underscores with spaces
@@ -443,7 +443,7 @@
       
       if (pathSegments.length > 0) {
         // Create title from complete path, keeping language prefixes
-        // Example: /zh-CN/development/core-concepts/workflow -> "zh-CN/development/core-concepts/workflow"
+        // Example: /zh/development/core-concepts/workflow -> "zh/development/core-concepts/workflow"
         const pathTitle = pathSegments.join('/');
         discussionTitle = pathTitle;
       }
@@ -497,7 +497,7 @@
       }
     };
     
-    const isChinesePage = window.location.pathname.includes('/zh-CN/') || window.location.pathname.includes('/cn/');
+    const isChinesePage = window.location.pathname.includes('/zh/') || window.location.pathname.includes('/cn/');
     const lang = isChinesePage ? 'zh' : 'en';
     const notice = noticeMessages[noticeType][lang];
     
@@ -640,7 +640,7 @@
     script.setAttribute('data-theme', currentTheme === 'dark' ? 'dark' : 'light');
     
     // Set language based on path - only Chinese pages should be marked as Chinese
-    const isChinesePage = newPath.includes('/zh-CN/') || newPath.includes('/cn/');
+    const isChinesePage = newPath.includes('/zh/') || newPath.includes('/cn/');
     const giscusLang = isChinesePage ? 'zh-CN' : 'en';
     script.setAttribute('data-lang', giscusLang);
     
@@ -717,7 +717,7 @@
     const newPath = window.location.pathname;
     
     // Exclude paths that should not have comments
-    const excludedPaths = ['/', '/zh-CN', '/zh-CN/'];
+    const excludedPaths = ['/', '/zh', '/zh/'];
 
     // Skip if current path is in excluded list or contains API/search paths
     if (excludedPaths.includes(newPath) || newPath.includes('/api/') || newPath.includes('/search')) {

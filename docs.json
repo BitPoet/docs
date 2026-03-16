@@ -766,91 +766,91 @@
               {
                 "group": "开始使用",
                 "pages": [
-                  "zh-CN/index",
+                  "zh/index",
                   {
                     "group": "本地安装",
                     "icon": "download",
                     "pages": [
-                      "zh-CN/installation/system_requirements",
+                      "zh/installation/system_requirements",
                       {
                         "group": "Desktop(推荐)",
                         "pages": [
-                          "zh-CN/installation/desktop/windows",
-                          "zh-CN/installation/desktop/macos",
-                          "zh-CN/installation/desktop/linux"
+                          "zh/installation/desktop/windows",
+                          "zh/installation/desktop/macos",
+                          "zh/installation/desktop/linux"
                         ]
                       },
-                      "zh-CN/installation/comfyui_portable_windows",
-                      "zh-CN/installation/manual_install",
-                      "zh-CN/installation/update_comfyui"
+                      "zh/installation/comfyui_portable_windows",
+                      "zh/installation/manual_install",
+                      "zh/installation/update_comfyui"
                     ]
                   },
                   {
                     "group": "Comfy Cloud",
                     "icon": "cloud",
-                    "pages": ["zh-CN/get_started/cloud", "zh-CN/cloud/import-models"]
+                    "pages": ["zh/get_started/cloud", "zh/cloud/import-models"]
                   },
-                  "zh-CN/installation/install_custom_node",
-                  "zh-CN/get_started/first_generation"
+                  "zh/installation/install_custom_node",
+                  "zh/get_started/first_generation"
                 ]
               },
               {
                 "group": "基础概念",
                 "pages": [
-                  "zh-CN/development/core-concepts/workflow",
-                  "zh-CN/development/core-concepts/nodes",
-                  "zh-CN/development/core-concepts/custom-nodes",
-                  "zh-CN/development/core-concepts/properties",
-                  "zh-CN/development/core-concepts/links",
-                  "zh-CN/development/core-concepts/models",
-                  "zh-CN/development/core-concepts/dependencies"
+                  "zh/development/core-concepts/workflow",
+                  "zh/development/core-concepts/nodes",
+                  "zh/development/core-concepts/custom-nodes",
+                  "zh/development/core-concepts/properties",
+                  "zh/development/core-concepts/links",
+                  "zh/development/core-concepts/models",
+                  "zh/development/core-concepts/dependencies"
                 ]
               },
               {
                 "group": "界面指南",
                 "pages": [
-                  "zh-CN/interface/overview",
-                  "zh-CN/interface/app-mode",
-                  "zh-CN/interface/nodes-2",
-                  "zh-CN/interface/maskeditor",
-                  "zh-CN/interface/features/template",
-                  "zh-CN/interface/features/subgraph",
-                  "zh-CN/interface/features/partial-execution",
-                  "zh-CN/interface/features/node-docs",
+                  "zh/interface/overview",
+                  "zh/interface/app-mode",
+                  "zh/interface/nodes-2",
+                  "zh/interface/maskeditor",
+                  "zh/interface/features/template",
+                  "zh/interface/features/subgraph",
+                  "zh/interface/features/partial-execution",
+                  "zh/interface/features/node-docs",
                   {
                     "group": "ComfyUI 设置",
                     "icon": "gear",
                     "pages": [
-                      "zh-CN/interface/settings/overview",
-                      "zh-CN/interface/user",
-                      "zh-CN/interface/credits",
-                      "zh-CN/interface/settings/comfy",
-                      "zh-CN/interface/settings/lite-graph",
-                      "zh-CN/interface/appearance",
-                      "zh-CN/interface/settings/3d",
-                      "zh-CN/interface/settings/comfy-desktop",
-                      "zh-CN/interface/settings/mask-editor",
-                      "zh-CN/interface/shortcuts",
-                      "zh-CN/interface/settings/extension",
-                      "zh-CN/interface/settings/about",
-                      "zh-CN/interface/settings/server-config"
+                      "zh/interface/settings/overview",
+                      "zh/interface/user",
+                      "zh/interface/credits",
+                      "zh/interface/settings/comfy",
+                      "zh/interface/settings/lite-graph",
+                      "zh/interface/appearance",
+                      "zh/interface/settings/3d",
+                      "zh/interface/settings/comfy-desktop",
+                      "zh/interface/settings/mask-editor",
+                      "zh/interface/shortcuts",
+                      "zh/interface/settings/extension",
+                      "zh/interface/settings/about",
+                      "zh/interface/settings/server-config"
                     ]
                   },
                   {
                     "group": "ComfyUI-Manager",
                     "icon": "puzzle-piece",
                     "pages": [
-                      "zh-CN/manager/overview",
-                      "zh-CN/manager/install",
+                      "zh/manager/overview",
+                      "zh/manager/install",
                       {
                         "group": "自定义节点管理",
                         "pages": [
-                          "zh-CN/manager/pack-management",
-                          "zh-CN/manager/legacy-ui"
+                          "zh/manager/pack-management",
+                          "zh/manager/legacy-ui"
                         ]
                       },
-                      "zh-CN/manager/configuration",
-                      "zh-CN/manager/troubleshooting"
+                      "zh/manager/configuration",
+                      "zh/manager/troubleshooting"
                     ]
                   }
                 ]
@@ -862,23 +862,23 @@
                   {
                     "group": "基础示例",
                     "pages": [
-                      "zh-CN/tutorials/basic/text-to-image",
-                      "zh-CN/tutorials/basic/image-to-image",
-                      "zh-CN/tutorials/basic/inpaint",
-                      "zh-CN/tutorials/basic/outpaint",
-                      "zh-CN/tutorials/basic/upscale",
-                      "zh-CN/tutorials/basic/lora",
-                      "zh-CN/tutorials/basic/multiple-loras"
+                      "zh/tutorials/basic/text-to-image",
+                      "zh/tutorials/basic/image-to-image",
+                      "zh/tutorials/basic/inpaint",
+                      "zh/tutorials/basic/outpaint",
+                      "zh/tutorials/basic/upscale",
+                      "zh/tutorials/basic/lora",
+                      "zh/tutorials/basic/multiple-loras"
                     ]
                   },
                   {
                     "group": "ControlNet",
                     "pages": [
-                      "zh-CN/tutorials/controlnet/controlnet",
-                      "zh-CN/tutorials/controlnet/pose-controlnet-2-pass",
-                      "zh-CN/tutorials/controlnet/depth-controlnet",
-                      "zh-CN/tutorials/controlnet/depth-t2i-adapter",
-                      "zh-CN/tutorials/controlnet/mixing-controlnets"
+                      "zh/tutorials/controlnet/controlnet",
+                      "zh/tutorials/controlnet/pose-controlnet-2-pass",
+                      "zh/tutorials/controlnet/depth-controlnet",
+                      "zh/tutorials/controlnet/depth-t2i-adapter",
+                      "zh/tutorials/controlnet/mixing-controlnets"
                     ]
                   },
                   {
@@ -887,57 +887,57 @@
                       {
                         "group": "Flux",
                         "pages": [
-                          "zh-CN/tutorials/flux/flux-2-dev",
-                          "zh-CN/tutorials/flux/flux-2-klein",
-                          "zh-CN/tutorials/flux/flux1-krea-dev",
-                          "zh-CN/tutorials/flux/flux-1-kontext-dev",
-                          "zh-CN/tutorials/flux/flux-1-text-to-image",
-                          "zh-CN/tutorials/flux/flux-1-uso",
-                          "zh-CN/tutorials/flux/flux-1-fill-dev",
-                          "zh-CN/tutorials/flux/flux-1-controlnet"
+                          "zh/tutorials/flux/flux-2-dev",
+                          "zh/tutorials/flux/flux-2-klein",
+                          "zh/tutorials/flux/flux1-krea-dev",
+                          "zh/tutorials/flux/flux-1-kontext-dev",
+                          "zh/tutorials/flux/flux-1-text-to-image",
+                          "zh/tutorials/flux/flux-1-uso",
+                          "zh/tutorials/flux/flux-1-fill-dev",
+                          "zh/tutorials/flux/flux-1-controlnet"
                         ]
                       },
                       {
                         "group": "Qwen",
                         "pages": [
-                          "zh-CN/tutorials/image/qwen/qwen-image",
-                          "zh-CN/tutorials/image/qwen/qwen-image-2512",
-                          "zh-CN/tutorials/image/qwen/qwen-image-edit",
-                          "zh-CN/tutorials/image/qwen/qwen-image-edit-2511",
-                          "zh-CN/tutorials/image/qwen/qwen-image-layered"
+                          "zh/tutorials/image/qwen/qwen-image",
+                          "zh/tutorials/image/qwen/qwen-image-2512",
+                          "zh/tutorials/image/qwen/qwen-image-edit",
+                          "zh/tutorials/image/qwen/qwen-image-edit-2511",
+                          "zh/tutorials/image/qwen/qwen-image-layered"
                         ]
                       },
                       {
                         "group": "Z-Image",
                         "pages": [
-                          "zh-CN/tutorials/image/z-image/z-image",
-                          "zh-CN/tutorials/image/z-image/z-image-turbo"
+                          "zh/tutorials/image/z-image/z-image",
+                          "zh/tutorials/image/z-image/z-image-turbo"
                         ]
                       },
                       {
                         "group": "Ovis",
-                        "pages": ["zh-CN/tutorials/image/ovis/ovis-image"]
+                        "pages": ["zh/tutorials/image/ovis/ovis-image"]
                       },
                       {
                         "group": "HiDream",
                         "pages": [
-                          "zh-CN/tutorials/image/hidream/hidream-i1",
-                          "zh-CN/tutorials/image/hidream/hidream-e1"
+                          "zh/tutorials/image/hidream/hidream-i1",
+                          "zh/tutorials/image/hidream/hidream-e1"
                         ]
                       },
                       {
                         "group": "NewBie-image",
                         "pages": [
-                          "zh-CN/tutorials/image/newbie-image/newbie-image-exp-0-1"
+                          "zh/tutorials/image/newbie-image/newbie-image-exp-0-1"
                         ]
                       },
-                      "zh-CN/tutorials/image/cosmos/cosmos-predict2-t2i",
-                      "zh-CN/tutorials/image/omnigen/omnigen2"
+                      "zh/tutorials/image/cosmos/cosmos-predict2-t2i",
+                      "zh/tutorials/image/omnigen/omnigen2"
                     ]
                   },
                   {
                     "group": "3D",
-                    "pages": ["zh-CN/tutorials/3d/hunyuan3D-2"]
+                    "pages": ["zh/tutorials/3d/hunyuan3D-2"]
                   },
                   {
                     "group": "视频",
@@ -945,32 +945,32 @@
                       {
                         "group": "LTX",
                         "pages": [
-                          "zh-CN/tutorials/video/ltxv",
-                          "zh-CN/tutorials/video/ltx/ltx-2",
-                          "zh-CN/tutorials/video/ltx/ltx-2-3"
+                          "zh/tutorials/video/ltxv",
+                          "zh/tutorials/video/ltx/ltx-2",
+                          "zh/tutorials/video/ltx/ltx-2-3"
                         ]
                       },
                       {
                         "group": "万相视频",
                         "pages": [
-                          "zh-CN/tutorials/video/wan/wan2_2",
-                          "zh-CN/tutorials/video/wan/wan2-2-animate",
-                          "zh-CN/tutorials/video/wan/wan2-2-s2v",
-                          "zh-CN/tutorials/video/wan/wan2-2-fun-inp",
-                          "zh-CN/tutorials/video/wan/wan2-2-fun-control",
-                          "zh-CN/tutorials/video/wan/wan2-2-fun-camera",
+                          "zh/tutorials/video/wan/wan2_2",
+                          "zh/tutorials/video/wan/wan2-2-animate",
+                          "zh/tutorials/video/wan/wan2-2-s2v",
+                          "zh/tutorials/video/wan/wan2-2-fun-inp",
+                          "zh/tutorials/video/wan/wan2-2-fun-control",
+                          "zh/tutorials/video/wan/wan2-2-fun-camera",
                           {
                             "group": "Wan2.1",
                             "pages": [
-                              "zh-CN/tutorials/video/wan/wan-video",
-                              "zh-CN/tutorials/video/wan/vace",
-                              "zh-CN/tutorials/video/wan/wan-move",
-                              "zh-CN/tutorials/video/wan/wan-alpha",
-                              "zh-CN/tutorials/video/wan/wan-ati",
-                              "zh-CN/tutorials/video/wan/fun-control",
-                              "zh-CN/tutorials/video/wan/fun-camera",
-                              "zh-CN/tutorials/video/wan/fun-inp",
-                              "zh-CN/tutorials/video/wan/wan-flf"
+                              "zh/tutorials/video/wan/wan-video",
+                              "zh/tutorials/video/wan/vace",
+                              "zh/tutorials/video/wan/wan-move",
+                              "zh/tutorials/video/wan/wan-alpha",
+                              "zh/tutorials/video/wan/wan-ati",
+                              "zh/tutorials/video/wan/fun-control",
+                              "zh/tutorials/video/wan/fun-camera",
+                              "zh/tutorials/video/wan/fun-inp",
+                              "zh/tutorials/video/wan/wan-flf"
                             ]
                           }
                         ]
@@ -979,20 +979,20 @@
                       {
                         "group": "腾讯混元",
                         "pages": [
-                          "zh-CN/tutorials/video/hunyuan/hunyuan-video",
-                          "zh-CN/tutorials/video/hunyuan/hunyuan-video-1-5"
+                          "zh/tutorials/video/hunyuan/hunyuan-video",
+                          "zh/tutorials/video/hunyuan/hunyuan-video-1-5"
                         ]
                       },
                       {
                         "group": "Cosmos",
                         "pages": [
-                          "zh-CN/tutorials/video/cosmos/cosmos-predict2-video2world"
+                          "zh/tutorials/video/cosmos/cosmos-predict2-video2world"
                         ]
                       },
                       {
                         "group": "Kandinsky",
                         "pages": [
-                          "zh-CN/tutorials/video/kandinsky/kandinsky-5"
+                          "zh/tutorials/video/kandinsky/kandinsky-5"
                         ]
                       }
                     ]
@@ -1003,8 +1003,8 @@
                       {
                         "group": "ACE-Step",
                         "pages": [
-                          "zh-CN/tutorials/audio/ace-step/ace-step-v1",
-                          "zh-CN/tutorials/audio/ace-step/ace-step-v1-5"
+                          "zh/tutorials/audio/ace-step/ace-step-v1",
+                          "zh/tutorials/audio/ace-step/ace-step-v1-5"
                         ]
                       }
                     ]
@@ -1012,181 +1012,181 @@
                   {
                     "group": "Utility",
                     "pages": [
-                      "zh-CN/tutorials/utility/preprocessors",
-                      "zh-CN/tutorials/utility/frame-interpolation",
-                      "zh-CN/tutorials/utility/image-upscale",
-                      "zh-CN/tutorials/utility/video-upscale"
+                      "zh/tutorials/utility/preprocessors",
+                      "zh/tutorials/utility/frame-interpolation",
+                      "zh/tutorials/utility/image-upscale",
+                      "zh/tutorials/utility/video-upscale"
                     ]
                   },
                   {
                     "group": "合作伙伴节点",
                     "pages": [
-                      "zh-CN/tutorials/partner-nodes/overview",
-                      "zh-CN/tutorials/partner-nodes/faq",
-                      "zh-CN/tutorials/partner-nodes/pricing",
+                      "zh/tutorials/partner-nodes/overview",
+                      "zh/tutorials/partner-nodes/faq",
+                      "zh/tutorials/partner-nodes/pricing",
                       {
                         "group": "Black Forest Labs",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/black-forest-labs/flux-1-1-pro-ultra-image",
-                          "zh-CN/tutorials/partner-nodes/black-forest-labs/flux-1-kontext"
+                          "zh/tutorials/partner-nodes/black-forest-labs/flux-1-1-pro-ultra-image",
+                          "zh/tutorials/partner-nodes/black-forest-labs/flux-1-kontext"
                         ]
                       },
                       {
                         "group": "ByteDance",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/bytedance/seedream-5-lite"
+                          "zh/tutorials/partner-nodes/bytedance/seedream-5-lite"
                         ]
                       },
                       {
                         "group": "Google",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/google/gemini",
-                          "zh-CN/tutorials/partner-nodes/google/nano-banana-pro",
-                          "zh-CN/tutorials/partner-nodes/google/nano-banana-2"
+                          "zh/tutorials/partner-nodes/google/gemini",
+                          "zh/tutorials/partner-nodes/google/nano-banana-pro",
+                          "zh/tutorials/partner-nodes/google/nano-banana-2"
                         ]
                       },
                       {
                         "group": "Stability AI",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/stability-ai/stable-image-ultra",
-                          "zh-CN/tutorials/partner-nodes/stability-ai/stable-diffusion-3-5-image",
-                          "zh-CN/tutorials/partner-nodes/stability-ai/stable-audio"
+                          "zh/tutorials/partner-nodes/stability-ai/stable-image-ultra",
+                          "zh/tutorials/partner-nodes/stability-ai/stable-diffusion-3-5-image",
+                          "zh/tutorials/partner-nodes/stability-ai/stable-audio"
                         ]
                       },
                       {
                         "group": "Ideogram",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/ideogram/ideogram-v3"
+                          "zh/tutorials/partner-nodes/ideogram/ideogram-v3"
                         ]
                       },
                       {
                         "group": "Luma",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/luma/luma-text-to-image",
-                          "zh-CN/tutorials/partner-nodes/luma/luma-image-to-image",
-                          "zh-CN/tutorials/partner-nodes/luma/luma-text-to-video",
-                          "zh-CN/tutorials/partner-nodes/luma/luma-image-to-video"
+                          "zh/tutorials/partner-nodes/luma/luma-text-to-image",
+                          "zh/tutorials/partner-nodes/luma/luma-image-to-image",
+                          "zh/tutorials/partner-nodes/luma/luma-text-to-video",
+                          "zh/tutorials/partner-nodes/luma/luma-image-to-video"
                         ]
                       },
                       {
                         "group": "Moonvalley",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/moonvalley/moonvalley-video-generation"
+                          "zh/tutorials/partner-nodes/moonvalley/moonvalley-video-generation"
                         ]
                       },
                       {
                         "group": "OpenAI",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/openai/gpt-image-1",
-                          "zh-CN/tutorials/partner-nodes/openai/dall-e-2",
-                          "zh-CN/tutorials/partner-nodes/openai/dall-e-3",
-                          "zh-CN/tutorials/partner-nodes/openai/chat"
+                          "zh/tutorials/partner-nodes/openai/gpt-image-1",
+                          "zh/tutorials/partner-nodes/openai/dall-e-2",
+                          "zh/tutorials/partner-nodes/openai/dall-e-3",
+                          "zh/tutorials/partner-nodes/openai/chat"
                         ]
                       },
                       {
                         "group": "Recraft",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/recraft/recraft-v4",
-                          "zh-CN/tutorials/partner-nodes/recraft/recraft-text-to-image"
+                          "zh/tutorials/partner-nodes/recraft/recraft-v4",
+                          "zh/tutorials/partner-nodes/recraft/recraft-text-to-image"
                         ]
                       },
                       {
                         "group": "Kling",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/kling/kling-3-0",
-                          "zh-CN/tutorials/partner-nodes/kling/kling-motion-control"
+                          "zh/tutorials/partner-nodes/kling/kling-3-0",
+                          "zh/tutorials/partner-nodes/kling/kling-motion-control"
                         ]
                       },
                       {
                         "group": "Runway",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/runway/image-generation",
-                          "zh-CN/tutorials/partner-nodes/runway/video-generation"
+                          "zh/tutorials/partner-nodes/runway/image-generation",
+                          "zh/tutorials/partner-nodes/runway/video-generation"
                         ]
                       },
                       {
                         "group": "Rodin",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/rodin/model-generation"
+                          "zh/tutorials/partner-nodes/rodin/model-generation"
                         ]
                       },
                       {
                         "group": "Tripo",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/tripo/model-generation"
+                          "zh/tutorials/partner-nodes/tripo/model-generation"
                         ]
                       },
                       {
                         "group": "Hunyuan 3D",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/hunyuan3d/hunyuan3d-3-0"
+                          "zh/tutorials/partner-nodes/hunyuan3d/hunyuan3d-3-0"
                         ]
                       },
                       {
                         "group": "Meshy",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/meshy/meshy-6"
+                          "zh/tutorials/partner-nodes/meshy/meshy-6"
                         ]
                       },
                       {
                         "group": "Bria",
                         "pages": [
-                          "zh-CN/tutorials/partner-nodes/bria/fibo"
+                          "zh/tutorials/partner-nodes/bria/fibo"
                         ]
                       }
                     ]
                   }
                 ]
               },
-              "zh-CN/changelog/index"
+              "zh/changelog/index"
             ]
           },
           {
             "tab": "内置节点",
             "pages": [
-              "zh-CN/built-in-nodes/overview",
+              "zh/built-in-nodes/overview",
               {
                 "group": "条件",
                 "pages": [
-                  "zh-CN/built-in-nodes/ClipSetLastLayer",
-                  "zh-CN/built-in-nodes/ClipTextEncode",
-                  "zh-CN/built-in-nodes/ClipVisionEncode",
+                  "zh/built-in-nodes/ClipSetLastLayer",
+                  "zh/built-in-nodes/ClipTextEncode",
+                  "zh/built-in-nodes/ClipVisionEncode",
                   {
                     "group": "视频模型",
                     "pages": [
-                      "zh-CN/built-in-nodes/conditioning/video-models/wan-vace-to-video"
+                      "zh/built-in-nodes/conditioning/video-models/wan-vace-to-video"
                     ]
                   }
                 ]
               },
               {
                 "group": "图像",
-                "pages": ["zh-CN/built-in-nodes/Canny"]
+                "pages": ["zh/built-in-nodes/Canny"]
               },
               {
                 "group": "加载器",
                 "pages": [
-                  "zh-CN/built-in-nodes/CheckpointLoaderSimple",
-                  "zh-CN/built-in-nodes/ClipLoader",
-                  "zh-CN/built-in-nodes/ClipVisionLoader"
+                  "zh/built-in-nodes/CheckpointLoaderSimple",
+                  "zh/built-in-nodes/ClipLoader",
+                  "zh/built-in-nodes/ClipVisionLoader"
                 ]
               },
               {
                 "group": "潜变量",
-                "pages": ["zh-CN/built-in-nodes/latent/video/trim-video-latent"]
+                "pages": ["zh/built-in-nodes/latent/video/trim-video-latent"]
               },
               {
                 "group": "高级",
                 "pages": [
-                  "zh-CN/built-in-nodes/ClipMergeSimple",
-                  "zh-CN/built-in-nodes/ClipSave",
+                  "zh/built-in-nodes/ClipMergeSimple",
+                  "zh/built-in-nodes/ClipSave",
                   {
                     "group": "条件",
                     "pages": [
-                      "zh-CN/built-in-nodes/ClipTextEncodeFlux",
-                      "zh-CN/built-in-nodes/ClipTextEncodeHunyuanDit",
-                      "zh-CN/built-in-nodes/ClipTextEncodeSdxl",
-                      "zh-CN/built-in-nodes/ClipTextEncodeSdxlRefiner"
+                      "zh/built-in-nodes/ClipTextEncodeFlux",
+                      "zh/built-in-nodes/ClipTextEncodeHunyuanDit",
+                      "zh/built-in-nodes/ClipTextEncodeSdxl",
+                      "zh/built-in-nodes/ClipTextEncodeSdxlRefiner"
                     ]
                   }
                 ]
@@ -1194,16 +1194,16 @@
               {
                 "group": "采样",
                 "pages": [
-                  "zh-CN/built-in-nodes/sampling/ksampler",
+                  "zh/built-in-nodes/sampling/ksampler",
                   {
                     "group": "自定义采样",
-                    "pages": ["zh-CN/built-in-nodes/BasicScheduler"]
+                    "pages": ["zh/built-in-nodes/BasicScheduler"]
                   }
                 ]
               },
               {
                 "group": "3D",
-                "pages": ["zh-CN/built-in-nodes/Load3D"]
+                "pages": ["zh/built-in-nodes/Load3D"]
               },
               {
                 "group": "合作伙伴节点",
@@ -1214,58 +1214,58 @@
                       {
                         "group": "BFL",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/image/bfl/flux-1-1-pro-ultra-image"
+                          "zh/built-in-nodes/partner-node/image/bfl/flux-1-1-pro-ultra-image"
                         ]
                       },
                       {
                         "group": "Luma",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/image/luma/luma-reference",
-                          "zh-CN/built-in-nodes/partner-node/image/luma/luma-text-to-image",
-                          "zh-CN/built-in-nodes/partner-node/image/luma/luma-image-to-image"
+                          "zh/built-in-nodes/partner-node/image/luma/luma-reference",
+                          "zh/built-in-nodes/partner-node/image/luma/luma-text-to-image",
+                          "zh/built-in-nodes/partner-node/image/luma/luma-image-to-image"
                         ]
                       },
                       {
                         "group": "Recraft",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/save-svg",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-style-realistic-image",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-text-to-vector",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-creative-upscale",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-image-to-image",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-crisp-upscale",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-color-rgb",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-text-to-image",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-image-inpainting",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-vectorize-image",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-style-digital-illustration",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-remove-background",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-style-logo-raster",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-controls",
-                          "zh-CN/built-in-nodes/partner-node/image/recraft/recraft-replace-background"
+                          "zh/built-in-nodes/partner-node/image/recraft/save-svg",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-style-realistic-image",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-text-to-vector",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-creative-upscale",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-image-to-image",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-crisp-upscale",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-color-rgb",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-text-to-image",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-image-inpainting",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-vectorize-image",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-style-digital-illustration",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-remove-background",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-style-logo-raster",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-controls",
+                          "zh/built-in-nodes/partner-node/image/recraft/recraft-replace-background"
                         ]
                       },
                       {
                         "group": "Ideogram",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/image/ideogram/ideogram-v2",
-                          "zh-CN/built-in-nodes/partner-node/image/ideogram/ideogram-v3",
-                          "zh-CN/built-in-nodes/partner-node/image/ideogram/ideogram-v1"
+                          "zh/built-in-nodes/partner-node/image/ideogram/ideogram-v2",
+                          "zh/built-in-nodes/partner-node/image/ideogram/ideogram-v3",
+                          "zh/built-in-nodes/partner-node/image/ideogram/ideogram-v1"
                         ]
                       },
                       {
                         "group": "Stability AI",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/image/stability-ai/stability-ai-stable-image-ultra",
-                          "zh-CN/built-in-nodes/partner-node/image/stability-ai/stability-ai-stable-diffusion-3-5-image"
+                          "zh/built-in-nodes/partner-node/image/stability-ai/stability-ai-stable-image-ultra",
+                          "zh/built-in-nodes/partner-node/image/stability-ai/stability-ai-stable-diffusion-3-5-image"
                         ]
                       },
                       {
                         "group": "OpenAI",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/image/openai/openai-gpt-image1",
-                          "zh-CN/built-in-nodes/partner-node/image/openai/openai-dalle2",
-                          "zh-CN/built-in-nodes/partner-node/image/openai/openai-dalle3"
+                          "zh/built-in-nodes/partner-node/image/openai/openai-gpt-image1",
+                          "zh/built-in-nodes/partner-node/image/openai/openai-dalle2",
+                          "zh/built-in-nodes/partner-node/image/openai/openai-dalle3"
                         ]
                       }
                     ]
@@ -1276,50 +1276,50 @@
                       {
                         "group": "MiniMax",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/video/minimax/minimax-image-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/minimax/minimax-text-to-video"
+                          "zh/built-in-nodes/partner-node/video/minimax/minimax-image-to-video",
+                          "zh/built-in-nodes/partner-node/video/minimax/minimax-text-to-video"
                         ]
                       },
                       {
                         "group": "Google",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/video/google/google-veo2-video"
+                          "zh/built-in-nodes/partner-node/video/google/google-veo2-video"
                         ]
                       },
                       {
                         "group": "Kling",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/video/kwai_vgi/kling-camera-controls",
-                          "zh-CN/built-in-nodes/partner-node/video/kwai_vgi/kling-text-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/kwai_vgi/kling-camera-control-i2v",
-                          "zh-CN/built-in-nodes/partner-node/video/kwai_vgi/kling-image-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/kwai_vgi/kling-start-end-frame-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/kwai_vgi/kling-camera-control-t2v"
+                          "zh/built-in-nodes/partner-node/video/kwai_vgi/kling-camera-controls",
+                          "zh/built-in-nodes/partner-node/video/kwai_vgi/kling-text-to-video",
+                          "zh/built-in-nodes/partner-node/video/kwai_vgi/kling-camera-control-i2v",
+                          "zh/built-in-nodes/partner-node/video/kwai_vgi/kling-image-to-video",
+                          "zh/built-in-nodes/partner-node/video/kwai_vgi/kling-start-end-frame-to-video",
+                          "zh/built-in-nodes/partner-node/video/kwai_vgi/kling-camera-control-t2v"
                         ]
                       },
                       {
                         "group": "Luma",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/video/luma/luma-text-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/luma/luma-image-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/luma/luma-concepts"
+                          "zh/built-in-nodes/partner-node/video/luma/luma-text-to-video",
+                          "zh/built-in-nodes/partner-node/video/luma/luma-image-to-video",
+                          "zh/built-in-nodes/partner-node/video/luma/luma-concepts"
                         ]
                       },
                       {
                         "group": "Pika",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/video/pika/pika-text-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/pika/pika-scenes",
-                          "zh-CN/built-in-nodes/partner-node/video/pika/pika-image-to-video"
+                          "zh/built-in-nodes/partner-node/video/pika/pika-text-to-video",
+                          "zh/built-in-nodes/partner-node/video/pika/pika-scenes",
+                          "zh/built-in-nodes/partner-node/video/pika/pika-image-to-video"
                         ]
                       },
                       {
                         "group": "PixVerse",
                         "pages": [
-                          "zh-CN/built-in-nodes/partner-node/video/pixverse/pixverse-template",
-                          "zh-CN/built-in-nodes/partner-node/video/pixverse/pixverse-text-to-video",
-                          "zh-CN/built-in-nodes/partner-node/video/pixverse/pixverse-transition-video",
-                          "zh-CN/built-in-nodes/partner-node/video/pixverse/pixverse-image-to-video"
+                          "zh/built-in-nodes/partner-node/video/pixverse/pixverse-template",
+                          "zh/built-in-nodes/partner-node/video/pixverse/pixverse-text-to-video",
+                          "zh/built-in-nodes/partner-node/video/pixverse/pixverse-transition-video",
+                          "zh/built-in-nodes/partner-node/video/pixverse/pixverse-image-to-video"
                         ]
                       }
                     ]
@@ -1331,94 +1331,94 @@
           {
             "tab": "开发",
             "pages": [
-              "zh-CN/development/overview",
+              "zh/development/overview",
               {
                 "group": "ComfyUI Server",
                 "icon": "code",
                 "pages": [
-                  "zh-CN/development/comfyui-server/comms_overview",
-                  "zh-CN/development/comfyui-server/comms_messages",
-                  "zh-CN/development/comfyui-server/comms_routes",
-                  "zh-CN/development/comfyui-server/execution_model_inversion_guide",
-                  "zh-CN/development/comfyui-server/api-key-integration"
+                  "zh/development/comfyui-server/comms_overview",
+                  "zh/development/comfyui-server/comms_messages",
+                  "zh/development/comfyui-server/comms_routes",
+                  "zh/development/comfyui-server/execution_model_inversion_guide",
+                  "zh/development/comfyui-server/api-key-integration"
                 ]
               },
               {
                 "group": "Cloud API",
                 "icon": "cloud",
                 "pages": [
-                  "zh-CN/development/cloud/overview",
-                  "zh-CN/development/cloud/api-reference",
-                  "zh-CN/development/cloud/openapi"
+                  "zh/development/cloud/overview",
+                  "zh/development/cloud/api-reference",
+                  "zh/development/cloud/openapi"
                 ]
               },
               {
                 "group": "CLI",
                 "pages": [
-                  "zh-CN/comfy-cli/getting-started",
-                  "zh-CN/comfy-cli/reference",
-                  "zh-CN/comfy-cli/troubleshooting"
+                  "zh/comfy-cli/getting-started",
+                  "zh/comfy-cli/reference",
+                  "zh/comfy-cli/troubleshooting"
                 ]
               },
               {
                 "group": "开发自定义节点",
                 "pages": [
-                  "zh-CN/custom-nodes/overview",
-                  "zh-CN/custom-nodes/walkthrough",
+                  "zh/custom-nodes/overview",
+                  "zh/custom-nodes/walkthrough",
                   {
                     "group": "后端",
                     "icon": "python",
                     "pages": [
-                      "zh-CN/custom-nodes/backend/server_overview",
-                      "zh-CN/custom-nodes/backend/lifecycle",
-                      "zh-CN/custom-nodes/backend/datatypes",
-                      "zh-CN/custom-nodes/backend/images_and_masks",
-                      "zh-CN/custom-nodes/backend/more_on_inputs",
-                      "zh-CN/custom-nodes/backend/lazy_evaluation",
-                      "zh-CN/custom-nodes/backend/expansion",
-                      "zh-CN/custom-nodes/backend/lists",
-                      "zh-CN/custom-nodes/backend/snippets",
-                      "zh-CN/custom-nodes/backend/tensors",
-                      "zh-CN/custom-nodes/backend/node-replacement"
+                      "zh/custom-nodes/backend/server_overview",
+                      "zh/custom-nodes/backend/lifecycle",
+                      "zh/custom-nodes/backend/datatypes",
+                      "zh/custom-nodes/backend/images_and_masks",
+                      "zh/custom-nodes/backend/more_on_inputs",
+                      "zh/custom-nodes/backend/lazy_evaluation",
+                      "zh/custom-nodes/backend/expansion",
+                      "zh/custom-nodes/backend/lists",
+                      "zh/custom-nodes/backend/snippets",
+                      "zh/custom-nodes/backend/tensors",
+                      "zh/custom-nodes/backend/node-replacement"
                     ]
                   },
                   {
                     "group": "UI",
                     "icon": "js",
                     "pages": [
-                      "zh-CN/custom-nodes/js/javascript_overview",
-                      "zh-CN/custom-nodes/js/javascript_hooks",
-                      "zh-CN/custom-nodes/js/javascript_objects_and_hijacking",
-                      "zh-CN/custom-nodes/js/javascript_settings",
-                      "zh-CN/custom-nodes/js/javascript_dialog",
-                      "zh-CN/custom-nodes/js/javascript_toast",
-                      "zh-CN/custom-nodes/js/javascript_about_panel_badges",
-                      "zh-CN/custom-nodes/js/javascript_bottom_panel_tabs",
-                      "zh-CN/custom-nodes/js/javascript_sidebar_tabs",
-                      "zh-CN/custom-nodes/js/javascript_selection_toolbox",
-                      "zh-CN/custom-nodes/js/javascript_commands_keybindings",
-                      "zh-CN/custom-nodes/js/javascript_topbar_menu",
-                      "zh-CN/custom-nodes/js/context-menu-migration",
-                      "zh-CN/custom-nodes/js/subgraphs",
-                      "zh-CN/custom-nodes/js/javascript_examples",
-                      "zh-CN/custom-nodes/i18n"
+                      "zh/custom-nodes/js/javascript_overview",
+                      "zh/custom-nodes/js/javascript_hooks",
+                      "zh/custom-nodes/js/javascript_objects_and_hijacking",
+                      "zh/custom-nodes/js/javascript_settings",
+                      "zh/custom-nodes/js/javascript_dialog",
+                      "zh/custom-nodes/js/javascript_toast",
+                      "zh/custom-nodes/js/javascript_about_panel_badges",
+                      "zh/custom-nodes/js/javascript_bottom_panel_tabs",
+                      "zh/custom-nodes/js/javascript_sidebar_tabs",
+                      "zh/custom-nodes/js/javascript_selection_toolbox",
+                      "zh/custom-nodes/js/javascript_commands_keybindings",
+                      "zh/custom-nodes/js/javascript_topbar_menu",
+                      "zh/custom-nodes/js/context-menu-migration",
+                      "zh/custom-nodes/js/subgraphs",
+                      "zh/custom-nodes/js/javascript_examples",
+                      "zh/custom-nodes/i18n"
                     ]
                   },
-                  "zh-CN/custom-nodes/v3_migration",
-                  "zh-CN/custom-nodes/help_page",
-                  "zh-CN/custom-nodes/workflow_templates",
-                  "zh-CN/custom-nodes/subgraph_blueprints"
+                  "zh/custom-nodes/v3_migration",
+                  "zh/custom-nodes/help_page",
+                  "zh/custom-nodes/workflow_templates",
+                  "zh/custom-nodes/subgraph_blueprints"
                 ]
               },
               {
                 "group": "注册表(Registry)",
                 "pages": [
-                  "zh-CN/registry/overview",
-                  "zh-CN/registry/publishing",
-                  "zh-CN/registry/claim-my-node",
-                  "zh-CN/registry/standards",
-                  "zh-CN/registry/cicd",
-                  "zh-CN/registry/specifications"
+                  "zh/registry/overview",
+                  "zh/registry/publishing",
+                  "zh/registry/claim-my-node",
+                  "zh/registry/standards",
+                  "zh/registry/cicd",
+                  "zh/registry/specifications"
                 ]
               },
               {
@@ -1427,15 +1427,15 @@
                   {
                     "group": "工作流 JSON",
                     "pages": [
-                      "zh-CN/specs/workflow_json",
-                      "zh-CN/specs/workflow_json_0.4"
+                      "zh/specs/workflow_json",
+                      "zh/specs/workflow_json_0.4"
                     ]
                   },
                   {
                     "group": "节点定义",
                     "pages": [
-                      "zh-CN/specs/nodedef_json",
-                      "zh-CN/specs/nodedef_json_1_0"
+                      "zh/specs/nodedef_json",
+                      "zh/specs/nodedef_json_1_0"
                     ]
                   }
                 ]
@@ -1445,14 +1445,14 @@
           {
             "tab": "支持",
             "pages": [
-              "zh-CN/support/contact-support",
+              "zh/support/contact-support",
               {
                 "group": "账户管理",
                 "icon": "user",
                 "pages": [
-                  "zh-CN/account/create-account",
-                  "zh-CN/account/login",
-                  "zh-CN/account/delete-account"
+                  "zh/account/create-account",
+                  "zh/account/login",
+                  "zh/account/delete-account"
                 ]
               },
               {
@@ -1461,21 +1461,21 @@
                   {
                     "group": "订阅",
                     "pages": [
-                      "zh-CN/support/subscription/subscribing",
-                      "zh-CN/support/subscription/managing",
-                      "zh-CN/support/subscription/changing-plan",
-                      "zh-CN/support/subscription/canceling"
+                      "zh/support/subscription/subscribing",
+                      "zh/support/subscription/managing",
+                      "zh/support/subscription/changing-plan",
+                      "zh/support/subscription/canceling"
                     ]
                   },
                   {
                     "group": "支付",
                     "pages": [
-                      "zh-CN/support/payment/accepted-payment-methods",
-                      "zh-CN/support/payment/editing-payment-information",
-                      "zh-CN/support/payment/payment-history",
-                      "zh-CN/support/payment/unsuccessful-payments",
-                      "zh-CN/support/payment/payment-currency",
-                      "zh-CN/support/payment/invoice-information"
+                      "zh/support/payment/accepted-payment-methods",
+                      "zh/support/payment/editing-payment-information",
+                      "zh/support/payment/payment-history",
+                      "zh/support/payment/unsuccessful-payments",
+                      "zh/support/payment/payment-currency",
+                      "zh/support/payment/invoice-information"
                     ]
                   }
                 ]
@@ -1484,16 +1484,16 @@
                 "group": "故障排除",
                 "icon": "bug",
                 "pages": [
-                  "zh-CN/troubleshooting/overview",
-                  "zh-CN/troubleshooting/model-issues",
-                  "zh-CN/troubleshooting/custom-node-issues"
+                  "zh/troubleshooting/overview",
+                  "zh/troubleshooting/model-issues",
+                  "zh/troubleshooting/custom-node-issues"
                 ]
               },
               {
                 "group": "社区",
                 "pages": [
-                  "zh-CN/community/contributing",
-                  "zh-CN/community/links"
+                  "zh/community/contributing",
+                  "zh/community/links"
                 ]
               }
             ]
@@ -1506,7 +1506,7 @@
             "tab": "Cloud API 参考文档",
             "openapi": {
               "source": "openapi-cloud.yaml",
-              "directory": "zh-CN/api-reference/cloud"
+              "directory": "zh/api-reference/cloud"
             }
           }
         ]
@@ -1610,6 +1610,10 @@
   },
   "redirects": [
     {
+      "source": "/zh-CN/:slug*",
+      "destination": "/zh/:slug*"
+    },
+    {
       "source": "/get_started/manual_install",
       "destination": "/installation/manual_install"
     },
@@ -1626,8 +1630,8 @@
       "destination": "/interface/shortcuts"
     },
     {
-      "source": "/zh-CN/get_started/gettingstarted",
-      "destination": "/zh-CN/get_started/first_generation"
+      "source": "/zh/get_started/gettingstarted",
+      "destination": "/zh/get_started/first_generation"
     },
     {
       "source": "/advanced/ltxv",
@@ -1638,20 +1642,20 @@
       "destination": "tutorials/video/hunyuan-video"
     },
     {
-      "source": "/zh-CN/advanced/ltxv",
-      "destination": "/zh-CN/tutorials/video/ltxv"
+      "source": "/zh/advanced/ltxv",
+      "destination": "/zh/tutorials/video/ltxv"
     },
     {
-      "source": "/zh-CN/advanced/hunyuan-video",
-      "destination": "/zh-CN/tutorials/video/hunyuan-video"
+      "source": "/zh/advanced/hunyuan-video",
+      "destination": "/zh/tutorials/video/hunyuan-video"
     },
     {
-      "source": "/zh-CN/tutorials/advanced/hidream",
-      "destination": "/zh-CN/tutorials/image/hidream/hidream-i1"
+      "source": "/zh/tutorials/advanced/hidream",
+      "destination": "/zh/tutorials/image/hidream/hidream-i1"
     },
     {
-      "source": "/zh-CN/tutorials/advanced/hidream-e1",
-      "destination": "/zh-CN/tutorials/image/hidream/hidream-e1"
+      "source": "/zh/tutorials/advanced/hidream-e1",
+      "destination": "/zh/tutorials/image/hidream/hidream-e1"
     },
     {
       "source": "tutorials/advanced/hidream",
@@ -1670,32 +1674,32 @@
       "destination": "/tutorials/partner-nodes/:slug*"
     },
     {
-      "source": "/zh-CN/tutorials/api-nodes/:slug*",
-      "destination": "/zh-CN/tutorials/partner-nodes/:slug*"
+      "source": "/zh/tutorials/api-nodes/:slug*",
+      "destination": "/zh/tutorials/partner-nodes/:slug*"
     },
     {
       "source": "/built-in-nodes/api-nodes/:slug*",
       "destination": "/built-in-nodes/partner-node/:slug*"
     },
     {
-      "source": "/zh-CN/built-in-nodes/api-nodes/:slug*",
-      "destination": "/zh-CN/built-in-nodes/partner-node/:slug*"
+      "source": "/zh/built-in-nodes/api-nodes/:slug*",
+      "destination": "/zh/built-in-nodes/partner-node/:slug*"
     },
     {
       "source": "/tutorials/video/hunyuan-video",
       "destination": "/tutorials/video/hunyuan/hunyuan-video"
     },
     {
-      "source": "/zh-CN/tutorials/video/hunyuan-video",
-      "destination": "/zh-CN/tutorials/video/hunyuan/hunyuan-video"
+      "source": "/zh/tutorials/video/hunyuan-video",
+      "destination": "/zh/tutorials/video/hunyuan/hunyuan-video"
     },
     {
       "source": "/custom-nodes/backend/subgraphs",
       "destination": "/custom-nodes/backend/expansion"
     },
     {
-      "source": "/zh-CN/custom-nodes/backend/subgraphs",
-      "destination": "/zh-CN/custom-nodes/backend/expansion"
+      "source": "/zh/custom-nodes/backend/subgraphs",
+      "destination": "/zh/custom-nodes/backend/expansion"
     }
   ]
 }

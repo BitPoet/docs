@@ -7,7 +7,7 @@
  *
  * Language mapping:
  * - English (en): /path/to/page
- * - Chinese (zh): /zh-CN/path/to/page
+ * - Chinese (zh): /zh/path/to/page
  */
 
 (function() {
@@ -22,7 +22,7 @@
     },
     zh: {
       code: 'zh',
-      prefix: '/zh-CN',  // Chinese pages are prefixed with /zh-CN
+      prefix: '/zh',  // Chinese pages are prefixed with /zh
       label: '中文'
     }
   };
@@ -32,7 +32,7 @@
    */
   function getCurrentLanguage() {
     const path = window.location.pathname;
-    if (path.startsWith('/zh-CN')) {
+    if (path.startsWith('/zh')) {
       return 'zh';
     }
     return 'en';
@@ -172,7 +172,7 @@
       // If no menu found yet, try to trigger it or wait
       if (!foundMenu) {
         // Look for any links that might be language switcher links
-        const allLinks = document.querySelectorAll('a[href="/"], a[href="/zh-CN/"], a[href*="zh-CN"]');
+        const allLinks = document.querySelectorAll('a[href="/"], a[href="/zh/"], a[href*="zh/"]');
 
         allLinks.forEach(link => {
           const href = link.getAttribute('href');
@@ -187,8 +187,8 @@
                                  linkText === 'zh' ||
                                  linkText === 'cn' ||
                                  href === '/' ||
-                                 href === '/zh-CN/' ||
-                                 href.startsWith('/zh-CN');
+                                 href === '/zh/' ||
+                                 href.startsWith('/zh');
 
           if (isLanguageLink) {
             foundMenu = link.closest('[role="menu"], [role="listbox"], ul, div');
@@ -233,7 +233,7 @@
             if (parent) {
               targetLang = 'en';
             }
-          } else if (url.pathname.startsWith('/zh-CN')) {
+          } else if (url.pathname.startsWith('/zh')) {
             targetLang = 'zh';
           }
 
